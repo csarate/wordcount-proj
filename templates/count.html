@@ -1,0 +1,15 @@
+<h1>Hay {{ count }} palabras en el texto</h1>
+
+<a href="{% url 'home' %}">Página Anterior</a>
+
+<h1>Su texto: </h1>
+{{ fulltext }}
+
+<h2>Palabras contadas:</h2>
+
+{% for word, counttotal in sortedwords %}
+
+{{ word }} = {{ counttotal }}
+<br />
+
+{% endfor %}

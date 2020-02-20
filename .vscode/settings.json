@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/home/claudio/envs/django_env_2.2/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true
+}
